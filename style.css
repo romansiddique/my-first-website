@@ -1,13 +1,4 @@
-body{
-    background-color: aqua;
-    width: 200px;
-    height: 100px;
-    border-radius: 32px;
-    -webkit-border-radius: 32px;
-    -moz-border-radius: 32px;
-    -ms-border-radius: 32px;
-    -o-border-radius: 32px;
-}
+
 
 h1{
     background-color: blanchedalmond;
@@ -17,4 +8,19 @@ h1{
     -moz-border-radius: 32px;
     -ms-border-radius: 32px;
     -o-border-radius: 32px;
+}
+
+.radial-gradient{
+    background-image: radial-gradient(rgb(11, 237, 79) 40%,yellow 70%,cyan 15%);
+    height: 200px;
+    width: 200px;
+}
+
+.conic-gradient{
+    margin: 40px;
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red 45deg,yellow 90deg, gold 210deg);
+    border-radius: 50%;
+    overflow:hidden;
 }
