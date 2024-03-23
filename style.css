@@ -9,6 +9,9 @@ h1{
     -ms-border-radius: 32px;
     -o-border-radius: 32px;
 }
+#float{
+    display: flex;
+}
 
 .radial-gradient{
     background-image: radial-gradient(rgb(11, 237, 79) 40%,yellow 70%,cyan 15%);
@@ -23,4 +26,27 @@ h1{
     background-image: conic-gradient(red 45deg,yellow 90deg, gold 210deg);
     border-radius: 50%;
     overflow:hidden;
+}
+
+.transition{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 30px;
+    transition: width 2s,height 2s,transform 2s,ease-in-out 2s;
+}
+.transition:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(180deg);
+    transition-timing-function: ease-in-out;
+}
+.text{
+    font-weight: 700px;
+    text-align: center;
+    transition: width 2s,height 2s,transform 2s,ease-in-out 2s;
+}
+.text:hover{
+    transform: rotate(180deg);
+    transition-timing-function: ease-in-out;
 }
